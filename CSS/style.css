@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.paginaAtual {
+    margin-left: 2em;
+    font-size:  24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.navBar ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-right: 2em;
+}
+.navBar a {
+    text-decoration: none;
+    color: black;
+}
+.navBar a:hover {
+    color: rgb(145, 142, 138);
+}
+main {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+}
+main h1 {
+    font-size: 30px;
+}
